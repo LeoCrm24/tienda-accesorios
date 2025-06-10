@@ -1,0 +1,135 @@
+.productos-section {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.productos-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.producto-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.producto-card:hover {
+  transform: scale(1.03);
+}
+
+.producto-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.producto-card h3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.precio {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #e60000;
+}
+
+.btn-wsp {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-wsp:hover {
+  background-color: #1ebe57;
+}
+
+ /* animacion */
+ /* NUEVO: Estilo visual para selector de categorías (tarjetas) */
+.selector-categorias {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0 2rem;
+  flex-wrap: wrap;
+}
+
+.categoria-card {
+  width: 180px;
+  height: 180px;
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s;
+}
+
+.categoria-card:hover {
+  transform: scale(1.05);
+  background: #f0f8ff;
+  border-color: #007bff;
+}
+
+.categoria-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.categoria-card:hover img {
+  filter: none;
+}
+
+.categoria-card h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0;
+}
+
+.categoria-card.activo {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.categoria-card.activo h3 {
+  color: white;
+}
+
+.categoria-card.activo img {
+  filter: none;
+}
+
+
+/* descripcion de la tienda */
+.descripcion-tienda {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #444;
+  line-height: 1.6;
+}

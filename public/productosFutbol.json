@@ -1,0 +1,20 @@
+[
+  {
+    "id": 101,
+    "nombre": "Balón Profesional",
+    "precio": "$420 MXN",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 102,
+    "nombre": "Tacos Adidas",
+    "precio": "$980 MXN",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 103,
+    "nombre": "Guantes de Portero",
+    "precio": "$600 MXN",
+    "imagen": "https://via.placeholder.com/150"
+  }
+]

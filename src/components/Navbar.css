@@ -1,0 +1,91 @@
+
+
+/* burger */
+
+/* Estilo general de la barra */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  padding: 20px 40px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Título llamativo */
+.navbar-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff700;
+  text-shadow: 2px 2px #00000088;
+}
+
+/* Lista de enlaces */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enlaces */
+.navbar-links a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ffff00;
+  transform: scale(1.1);
+}
+
+
+/* Hamburguesa */
+.hamburguesa {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburguesa .barra {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+/* Modo móvil */
+@media (max-width: 768px) {
+  .hamburguesa {
+    display: flex;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: #1a1a1a;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 15px 20px;
+    display: none;
+    border-radius: 8px;
+  }
+
+  .navbar-links.activo {
+    display: flex;
+  }
+}

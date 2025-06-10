@@ -1,0 +1,22 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+}
+
+.btn-wsp {
+  background: #25D366;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.btn-wsp:hover {
+  background: #128C7E;
+}
