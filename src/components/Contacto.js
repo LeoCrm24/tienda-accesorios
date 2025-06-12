@@ -1,5 +1,5 @@
 import './Contacto.css';
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaTiktok } from 'react-icons/fa';
+import { FaFacebookF, FaWhatsapp } from 'react-icons/fa';
 
 export default function Contacto() {
   return (

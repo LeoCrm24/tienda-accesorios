@@ -1,20 +1,44 @@
 [
   {
     "id": 101,
-    "nombre": "Balón Profesional",
-    "precio": "$420 MXN",
-    "imagen": "https://via.placeholder.com/150"
+    "nombre": "Balón De Entrenamiento Champions",
+    "precio": "$200 MXN",
+    "imagen": "/img/balon.jpg"
   },
   {
     "id": 102,
-    "nombre": "Tacos Adidas",
-    "precio": "$980 MXN",
-    "imagen": "https://via.placeholder.com/150"
+    "nombre": "Calcetin Media Deportivos Fútbol Antideslizantes",
+    "precio": "$50 c/u MXN",
+    "imagen": "/img/calcetas.jpg"
   },
   {
     "id": 103,
-    "nombre": "Guantes de Portero",
-    "precio": "$600 MXN",
-    "imagen": "https://via.placeholder.com/150"
+    "nombre": "Espinillera Con Calceta de Pantorrilla",
+    "precio": "$150 MXN",
+    "imagen": "/img/espinilleraPantorrilla2.jpg"
+  },
+  {
+    "id": 104,
+    "nombre": "Valvula Para Inflar Balones",
+    "precio": "$7 MXN",
+    "imagen": "/img/valvula.jpg"
+  },
+  {
+    "id": 105,
+    "nombre": "Venda Elastica Cohesiva (Dif. COlores)",
+    "precio": "$20 c/u MXN",
+    "imagen": "/img/cintas.jpg"
+  },
+  {
+    "id": 106,
+    "nombre": "Mini Bomba",
+    "precio": "$70 MXN",
+    "imagen": "/img/bomba.jpg"
+  },
+  {
+    "id": 107,
+    "nombre": "Bolsa Para Balon (mochila)",
+    "precio": "$40 MXN",
+    "imagen": "/img/mochila.jpg"
   }
 ]

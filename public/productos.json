@@ -1,20 +1,32 @@
 [
   {
     "id": 1,
-    "nombre": "Mouse Gamer RGB",
-    "precio": "$350 MXN",
-    "imagen": "/img/mouse.jpg"
+    "nombre": "Mouse Inalambrico Portatil",
+    "precio": "$150 MXN",
+    "imagen": "/img/mouse2.jpg"
   },
   {
     "id": 2,
-    "nombre": "Teclado Mecánico Retroiluminado",
-    "precio": "$950 MXN",
-    "imagen": "https://via.placeholder.com/150"
+    "nombre": "Mini Ventilador Portatil",
+    "precio": "$80 MXN",
+    "imagen": "/img/mini_ventilador.jpg"
   },
   {
     "id": 3,
-    "nombre": "Base Enfriadora para Laptop",
+    "nombre": "Adaptador Multi USB (4 Puertos)",
     "precio": "$280 MXN",
-    "imagen": "https://via.placeholder.com/150"
+    "imagen": "/img/multiconector.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Mousepad Tapete Ergonomico",
+    "precio": "$180 MXN",
+    "imagen": "/img/mousepad.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Lampara Solar De Pared",
+    "precio": "$250 MXN",
+    "imagen": "/img/lampara_solar.jpg"
   }
 ]

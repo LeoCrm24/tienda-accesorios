@@ -6,6 +6,7 @@ export default function Productos() {
   const [productos, setProductos] = useState([]);
   const [seccion, setSeccion] = useState("pc");
   const [animando, setAnimando] = useState(false);
+  const [imagenSeleccionada, setImagenSeleccionada] = useState(null);
 
   useEffect(() => {
     setAnimando(true);
@@ -40,14 +41,20 @@ export default function Productos() {
         </div>
       </div>
 
-      <h2>{seccion === "pc" ? "Productos de PC" : "Productos de Fútbol"}</h2>
+      <h2>{seccion === "pc" ? "Productos de PC y Electrónicos" : "Productos de Fútbol"}</h2>
 
       <div className={`productos-grid ${animando ? "fade" : ""}`}>
         {productos.map((producto) => (
           <div className="producto-card" key={producto.id}>
-            <img src={producto.imagen} alt={producto.nombre} />
+            <img
+              src={producto.imagen}
+              alt={producto.nombre}
+              onClick={() => setImagenSeleccionada(producto.imagen)}
+              className="clickable-img"
+            />
             <h3>{producto.nombre}</h3>
             <p className="precio">{producto.precio}</p>
+            
             <a
               className="btn-wsp"
               href={`https://wa.me/${telefono}?text=Hola%2C%20estoy%20interesado%20en%20el%20producto:%20${encodeURIComponent(producto.nombre)}`}
@@ -59,6 +66,14 @@ export default function Productos() {
           </div>
         ))}
       </div>
+
+      {imagenSeleccionada && (
+        <div className="modal-overlay" onClick={() => setImagenSeleccionada(null)}>
+          <div className="modal-content">
+            <img src={imagenSeleccionada} alt="Vista ampliada" />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
