@@ -24,7 +24,7 @@ export default function Contacto() {
         <div className="contacto-card">
           <h3>Contacto Alternativo</h3> <br/>
           <a
-            href="https://wa.me/524271234567?text=Hola%2C%20no%20recib%C3%AD%20respuesta%20en%20el%20otro%20n%C3%BAmero.%20%C2%BFPuedes%20ayudarme%3F"
+            href="https://wa.me/524271026858?text=Hola%2C%20no%20recib%C3%AD%20respuesta%20en%20el%20otro%20n%C3%BAmero.%20%C2%BFPuedes%20ayudarme%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="icono whatsapp"
