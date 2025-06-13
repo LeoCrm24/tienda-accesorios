@@ -54,15 +54,23 @@ export default function Productos() {
             />
             <h3>{producto.nombre}</h3>
             <p className="precio">{producto.precio}</p>
-            
-            <a
-              className="btn-wsp"
-              href={`https://wa.me/${telefono}?text=Hola%2C%20estoy%20interesado%20en%20el%20producto:%20${encodeURIComponent(producto.nombre)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Solicitar información
-            </a>
+
+            <p className={`stock ${producto.stock === 'disponible' ? 'disponible' : 'agotado'}`}>
+              {producto.stock === 'agotado' ? <s>Agotado</s> : 'Disponible'}
+            </p>
+
+
+            {producto.stock === 'disponible' && (
+              <a
+                className="btn-wsp"
+                href={`https://wa.me/${telefono}?text=Hola%2C%20estoy%20interesado%20en%20el%20producto:%20${encodeURIComponent(producto.nombre)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar información
+              </a>
+            )}
+
           </div>
         ))}
       </div>

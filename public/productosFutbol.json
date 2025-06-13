@@ -3,42 +3,49 @@
     "id": 101,
     "nombre": "Balón De Entrenamiento Champions",
     "precio": "$200 MXN",
-    "imagen": "/img/balon.jpg"
+    "imagen": "/img/balon.jpg",
+    "stock": "disponible"
   },
   {
     "id": 102,
     "nombre": "Calcetin Media Deportivos Fútbol Antideslizantes",
     "precio": "$50 c/u MXN",
-    "imagen": "/img/calcetas.jpg"
+    "imagen": "/img/calcetas.jpg",
+    "stock": "disponible"
   },
   {
     "id": 103,
     "nombre": "Espinillera Con Calceta de Pantorrilla",
     "precio": "$150 MXN",
-    "imagen": "/img/espinilleraPantorrilla2.jpg"
+    "imagen": "/img/espinilleraPantorrilla2.jpg",
+    "stock": "disponible"
   },
   {
     "id": 104,
     "nombre": "Valvula Para Inflar Balones",
-    "precio": "$7 MXN",
-    "imagen": "/img/valvula.jpg"
+    "precio": "$5 MXN",
+    "imagen": "/img/valvula.jpg",
+    "stock": "disponible"
   },
   {
     "id": 105,
     "nombre": "Venda Elastica Cohesiva (Dif. COlores)",
     "precio": "$20 c/u MXN",
-    "imagen": "/img/cintas.jpg"
+    "imagen": "/img/cintas.jpg",
+    "stock": "disponible"
   },
   {
     "id": 106,
     "nombre": "Mini Bomba",
     "precio": "$70 MXN",
-    "imagen": "/img/bomba.jpg"
+    "imagen": "/img/bomba.jpg",
+    "stock": "disponible"
   },
   {
     "id": 107,
     "nombre": "Bolsa Para Balon (mochila)",
     "precio": "$40 MXN",
-    "imagen": "/img/mochila.jpg"
+    "imagen": "/img/mochila.jpg",
+    "stock": "disponible"
   }
 ]

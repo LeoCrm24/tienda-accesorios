@@ -165,3 +165,20 @@
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
+
+
+/* stock */
+
+.stock {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.stock.disponible {
+  color: green;
+}
+
+.stock.agotado {
+  color: red;
+  text-decoration: line-through;
+}

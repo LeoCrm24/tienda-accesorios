@@ -3,30 +3,35 @@
     "id": 1,
     "nombre": "Mouse Inalambrico Portatil",
     "precio": "$150 MXN",
-    "imagen": "/img/mouse2.jpg"
+    "imagen": "/img/mouse2.jpg",
+    "stock": "agotado"
   },
   {
     "id": 2,
     "nombre": "Mini Ventilador Portatil",
     "precio": "$80 MXN",
-    "imagen": "/img/mini_ventilador.jpg"
+    "imagen": "/img/mini_ventilador.jpg",
+    "stock": "agotado"
   },
   {
     "id": 3,
     "nombre": "Adaptador Multi USB (4 Puertos)",
     "precio": "$280 MXN",
-    "imagen": "/img/multiconector.jpg"
+    "imagen": "/img/multiconector.jpg",
+    "stock": "disponible"
   },
   {
     "id": 4,
     "nombre": "Mousepad Tapete Ergonomico",
     "precio": "$180 MXN",
-    "imagen": "/img/mousepad.jpg"
+    "imagen": "/img/mousepad.jpg",
+    "stock": "disponible"
   },
   {
     "id": 5,
     "nombre": "Lampara Solar De Pared",
     "precio": "$250 MXN",
-    "imagen": "/img/lampara_solar.jpg"
+    "imagen": "/img/lampara_solar.jpg",
+    "stock": "agotado"
   }
 ]
