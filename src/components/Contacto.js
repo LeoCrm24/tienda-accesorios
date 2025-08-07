@@ -5,7 +5,7 @@ export default function Contacto() {
   return (
     <section id="contacto" className="contacto-section">
       <h2>Contáctanos</h2>
-      <p>¡Envíanos un mensaje directo! Si no recibes respuesta, usa el contacto alternativo.</p>
+      <p>¡Envíanos un mensaje por whatsapp si necesitas algo en espesifico!</p>
 
       <div className="contacto-grid">
         <div className="contacto-card">
@@ -21,7 +21,7 @@ export default function Contacto() {
           </a>
         </div>
 
-        <div className="contacto-card">
+        {/* <div className="contacto-card">
           <h3>Contacto Alternativo</h3> <br/>
           <a
             href="https://wa.me/524271026858?text=Hola%2C%20no%20recib%C3%AD%20respuesta%20en%20el%20otro%20n%C3%BAmero.%20%C2%BFPuedes%20ayudarme%3F"
@@ -32,7 +32,7 @@ export default function Contacto() {
           >
             <FaWhatsapp />
           </a>
-        </div>
+        </div> */}
 
   
       </div>

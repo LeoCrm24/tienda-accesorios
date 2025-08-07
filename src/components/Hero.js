@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <div className="hero">
       <p className="descripcion-tienda">
-        ¡Encuentra los mejores accesorios para tu laptop, PC o para tu comodidad en el fútbol!<br />
-        Calidad, variedad y precios accesibles para los amantes de la tecnología y el deporte.<br />
+        ¡Encuentra los accesorios aptos para tu equipo de computo o para tu comodidad en el fútbol!<br />
+        Calidad, variedad y precios accesibles.<br />
         <br />
         Oh bien, si necesitas mantenimiento para tu ordenador, escribenos...
       </p>

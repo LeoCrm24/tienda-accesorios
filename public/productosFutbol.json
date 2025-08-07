@@ -4,7 +4,7 @@
     "nombre": "Balón De Entrenamiento Champions",
     "precio": "$200 MXN",
     "imagen": "/img/balon.jpg",
-    "stock": "disponible"
+    "stock": "agotado"
   },
   {
     "id": 102,
@@ -16,7 +16,7 @@
   {
     "id": 103,
     "nombre": "Espinillera Con Calceta de Pantorrilla",
-    "precio": "$150 MXN",
+    "precio": "$120 MXN",
     "imagen": "/img/espinilleraPantorrilla2.jpg",
     "stock": "disponible"
   },
@@ -29,7 +29,7 @@
   },
   {
     "id": 105,
-    "nombre": "Venda Elastica Cohesiva (Dif. COlores)",
+    "nombre": "Venda Elastica Cohesiva (Dif. Colores)",
     "precio": "$20 c/u MXN",
     "imagen": "/img/cintas.jpg",
     "stock": "disponible"
@@ -37,7 +37,7 @@
   {
     "id": 106,
     "nombre": "Mini Bomba",
-    "precio": "$70 MXN",
+    "precio": "$55 MXN",
     "imagen": "/img/bomba.jpg",
     "stock": "disponible"
   },
