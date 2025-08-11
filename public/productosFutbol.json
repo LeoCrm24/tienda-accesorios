@@ -1,14 +1,14 @@
 [
   {
     "id": 101,
-    "nombre": "Balón De Entrenamiento Champions",
+    "nombre": "Balón De Entrenamiento Champions (Rosa, azul)",
     "precio": "$200 MXN",
     "imagen": "/img/balon.jpg",
-    "stock": "agotado"
+    "stock": "disponible"
   },
   {
     "id": 102,
-    "nombre": "Calcetin Media Deportivos Fútbol Antideslizantes",
+    "nombre": "Calcetin Media Deportivos Fútbol Antideslizantes (Para adulto y niño)",
     "precio": "$50 c/u MXN",
     "imagen": "/img/calcetas.jpg",
     "stock": "disponible"
@@ -44,8 +44,29 @@
   {
     "id": 107,
     "nombre": "Bolsa Para Balon (mochila)",
-    "precio": "$40 MXN",
+    "precio": "$20 MXN",
     "imagen": "/img/mochila.jpg",
+    "stock": "disponible"
+  },
+  {
+    "id": 108,
+    "nombre": "Bandas para el cabello",
+    "precio": "$25 MXN",
+    "imagen": "/img/bandas.jpg",
+    "stock": "disponible"
+  },
+  {
+    "id": 109,
+    "nombre": "Mini espinilleras",
+    "precio": "$65 MXN",
+    "imagen": "/img/mini_esp.jpg",
+    "stock": "disponible"
+  },
+  {
+    "id": 110,
+    "nombre": "Calceta de pantorrilla",
+    "precio": "$50 MXN",
+    "imagen": "/img/tobilleras.jpg",
     "stock": "disponible"
   }
 ]
