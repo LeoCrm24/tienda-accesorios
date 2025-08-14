@@ -33,5 +33,12 @@
     "precio": "$250 MXN",
     "imagen": "/img/lampara_solar.jpg",
     "stock": "agotado"
+  },
+  {
+    "id": 6,
+    "nombre": "Bateria CMOS Cr2032",
+    "precio": "$30 MXN",
+    "imagen": "/img/cmos.jpg",
+    "stock": "disponible"
   }
 ]
