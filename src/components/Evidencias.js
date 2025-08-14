@@ -1,6 +1,6 @@
 // src/components/Evidencias.js
 import React, { useState } from 'react';
-import './Evidencias.css';
+import './Evidencia.css';
 
 const trabajos = [
   {
